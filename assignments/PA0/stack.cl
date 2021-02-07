@@ -1,7 +1,8 @@
 class Main inherits IO {
 
    main() : Object {
-      out_string("Nothing implemented\n")
+      let input: String <- in_string() in 
+      out_string(input);
    };
 
 };
